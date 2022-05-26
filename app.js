@@ -20,6 +20,10 @@ else if(expressions === "+"){
     total = numberOne + numberTwo
     document.write("<h1>" + numberOne + " " + expressions + " " + numberTwo + " " + "=" + " " + total + "</h1>")
 }
+else if(expressions === "%"){
+    total = numberOne / numberTwo * 100;
+    document.write("<h1>" + numberOne + " " + "/" + " " + numberTwo + " " + "=" + " " + total + "%" + "</h1>")
+}
 else{
     document.write("<h1>" + "Error" + "</h1>")
 };
